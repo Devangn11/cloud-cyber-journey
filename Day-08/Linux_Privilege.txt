@@ -1,0 +1,8 @@
+# 🧨 Day 08 – Linux Privilege Escalation Basics
+
+## 🧪 Objective
+Gain root privileges from a low-privileged user using common misconfigurations and binaries.
+
+## 🧩 Target: devtest (low-priv user)
+
+Starting as user `devtest` with no sudo/root access.
