@@ -1,0 +1,13 @@
+SOC is also known as Security Operation Center.
+Tier 1 Analyst Key Responsibilities:
+Monitor SIEM alerts.
+Investigate suspicious activity.
+Escalate serious incidents.
+Document findings (ticketing tools like ServiceNow, Jira).
+Understand basic logs: Windows Event Logs, Firewall, Proxy, Antivirus logs.
+
+Tools used by SOC Analyst:
+SIEM: Splunk, Elastic, IBM QRadar, Microsft Sentinel
+EDR: CrowdStrike, SentinelOne
+Ticketing: Jira,ServiceNow
+Threat Intelligence: VirusTotal, AbuseIPDB.

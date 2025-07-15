@@ -1,0 +1,7 @@
+[ALERT] Suspicious login detected
+Username: devtest
+Event ID: 4625 (Failed Login)
+Source IP: 103.21.244.1
+Time: 2025-07-15 18:20 IST
+Escalation: No (first attempt)
+Next Action: Monitor for repetition
