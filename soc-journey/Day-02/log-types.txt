@@ -1,0 +1,45 @@
+What are Logs?
+Logs are timestamped records of system events/activities-like someone logging in, a website being visited, or a file being downloaded.
+They help you detect unauthorized activity, malware, or insider threats.
+
+Most Important Log Types:
+1.Windows Logs: 
+Shows: Logins, file access, new processes. 
+Use in SOC: Detect Brute force/ suspicious logins
+
+2.Firewall Logs:
+Shows: Blocked/allowed IPs,ports,protocols.
+Use in SOC: Detect Scanning/ data exfiltration
+
+3.Proxy Logs:
+Shows: URL access, downloads, browsers activity.
+Use in SOC: Detect users visiting malicious sites
+
+4.EDR Logs:
+Shows: Malware activity, process behaviour.
+Use in SOC: Detect Ransomware/ process injection
+
+5.Web Server Logs:
+Shows: Visitor IP, URLs hit, HTTP codes 
+Use in SOC: Detect web-based attacks(XSS, SQLi)
+
+Some Sample Logs:
+1.Windows Log(Event ID 4624- Successful Login)
+Event ID: 4624
+Account Name: devang
+Logon Type: 10 (Remote Desktop)
+Source IP: 192.168.1.100
+
+2.Firewall Log:
+Time: 2025-07-15 12:10:34
+Action: Denied
+Source IP: 103.21.244.1
+Destination IP: 10.0.0.2
+Port: 22
+
+3.Proxy Log:
+User: devtest
+URL: http://suspicious-download.com
+Action: Allowed
+Timestamp: 2025-07-15 11:55:13
+

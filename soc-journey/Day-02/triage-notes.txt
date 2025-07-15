@@ -1,0 +1,8 @@
+[TRIAGE LOG]
+Date: 2025-07-15
+Event: Failed login (Event ID 4625)
+User: devtest
+Source IP: 192.168.1.111
+Action: Investigate
+Reason: Multiple failed logins detected in short interval
+Next Steps: Alert if attempts > 5 within 5 mins
